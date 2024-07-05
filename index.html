@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavesta</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">LAVESTA</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#contact">Contact Info</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lavesta Pink Cafe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#menu" onclick="toggleMenu()">Menu</a></li>
+          <li><a href="#photos" onclick="toggleMenu()">Photos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact Info</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/LAVESTA.png" alt="Lavesta's logo" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hi, Welcome to</p>
+        <h1 class="title">Lavesta Pink Cafe</h1>
+        <p class="section__text__p2">PINK PINK PINK!</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://maps.app.goo.gl/QKwiYsTWGWPn6vLt6'"
+          >
+            Location
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/fb.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/lavestapinkcafe/'"
+          />
+          <img
+            src="./assets/insta.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/lavestapinkcafe/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Us</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <p>Social media has taken on a significant role in our lives, and individuals are constantly searching for Instagram-worthy locations to get their followers to double-tap. One location that has gained popularity on social media is Lavesta Pink Cafe in Calicut, a stunning and vibrant eatery ideal for Instagram devotees. Located in Moonalingal in Calicut, this is Kerala’s first pink cafe, and people are raving about it.<br><br>
+               Lavesta Pink Cafe is a unique diner with pink-themed decor that has gone viral on social media. Every square inch of the cafe is painted in various colours of pink, from the walls to the floors, creating a playful and whimsical environment. The cafe is visually appealing and has a variety of props and accessories that are ideal for making amusing and distinctive Instagram photos. One thing they promise is that everyone gets the pinkest of experiences.<br><br>
+               Lavesta Pink Cafe provides a variety of delectable and Instagram-worthy delights, so it’s more than just a gorgeous face. The menu offers various vibrant beverages, including Instagrammble flavoured lattes such as the unicorn drink, dirty black and blue sapphire, and pink lemonade.</p><br>
+               <button class="btn btn-color-1" onclick="location.href='./#'">
+                Learn more
+              </button>
+            </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#menu'"
+      />
+    </section>
+    <section id="menu">
+      <p class="section__text__p1">Explore Our</p>
+      <h1 class="title">Menu</h1>
+      <div class="text-c">
+      <h3><a href="https://qr2.mydigimenu.com/5e748dc3-0e7f-461d-9370-d00b91956c39">Fill your day with the finest![Click for more]</a></h3></div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Beverages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cafe Latte</h3>
+                  <p>Rs.70</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Virgin Mojito</h3>
+                  <p>Rs.90</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Blueberry Mojito</h3>
+                  <p>Rs.100</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Oreo Blast Milkshake</h3>
+                  <p>Rs.130</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Choco Massion Milkshake</h3>
+                  <p>Rs.110</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lotus Biscoff Tea</h3>
+                  <p>Rs.299</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Fast Foods</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Baked Bean Burger</h3>
+                  <p>Rs.120</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Veg Burger</h3>
+                  <p>Rs.110</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Chicken Burger</h3>
+                  <p>Rs.160</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cheese Pasta</h3>
+                  <p>Rs.170</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#photos'"
+      />
+    </section>
+    <section id="photos">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Photos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container-md-4">
+            <div class="article-container">
+              <img
+                src="./assets/bp8.jpeg"
+                alt="1"
+                class="photo-img" width="100%" 
+              />
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bp11.jpeg"
+                alt="2"
+                class="photo-img" width="100%" 
+              />
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bp10.jpeg"
+                alt="3"
+                class="photo-img" width="100%" 
+              />
+            </div>
+          </div>
+    </div>
+  </div>
+  <section id="photos">
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container-md-4">
+          <div class="article-container">
+            <img
+              src="./assets/bp4.jpeg"
+              alt="1"
+              class="photo-img" width="100%" 
+            />
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/bp5.jpeg"
+              alt="2"
+              class="photo-img" width="100%" 
+            />
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/bp2.jpeg"
+              alt="3"
+              class="photo-img" width="100%" 
+            />
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Info</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lavestapinkcafe@gmail.com">lavestapinkcafe@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/insta.png"
+            alt="Instagram icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/lavestapinkcafe/">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023.<br>Created by Tini Treesa Joseph<br> All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
